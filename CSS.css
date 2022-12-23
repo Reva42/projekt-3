@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: white;
+}
+.content{
+max-width: 736px;
+margin: auto;
+}
+h1,h2,h3,p,footer, ul,.topnav{
+margin: 0;
+padding:0;
+font-family: "Century Schoolbook L", "serif"
+}
+
+h1{
+font-size: 25pt;
+padding: 10px 0;
+font-weight: bold;
+}
+
+h2{
+font-size: 18pt;
+font-weight: normal;
+letter-spacing: normal;
+}
+h3{
+font-size: 18pt;
+font-weight: bold;
+text-align: center;
+}
+p, footer, ul{
+font-size: 14pt;
+font-weight: normal;
+}
+.header{
+width: 100%;
+padding:40px 0;
+text-align: center;
+background: #76B1AE;
+color: black;
+}
+p,ul{
+width: 80%;
+text-align: center;
+padding: 20px 5px;
+background: #8496BD;
+color: black;
+list-style-type: none;
+margin-bottom: 10px;
+}
+.banner, footer{
+width: 100%;
+padding:15px 0;
+text-align: center;
+background: #226765;
+color: black;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #333;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%; 
+  text-align: center; 
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: auto;
+}
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+.center4{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+@media screen and (max-width : 736px ){
+  .navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  }
+	
+}
+	@media only screen and (min-width: 736px){
+.content{
+max-width: 100%;
+margin: auto;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+}
+
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+}
+.navbar a {
+font-size: 20px;
+		}
+   
+h1{font-size: 28pt}
+h2, h3{font-size: 20pt}
+p, footer, ul{
+font-size: 18pt;
+font-weight: normal;
+}
+}
+@media only screen and (min-width: 1000px){
+.content{
+max-width: 100%;
+margin: auto;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto;
+}
+
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+}
+.navbar a {
+font-size: 20px;
+		}
+   
+h1{font-size: 35pt}
+h2, h3{font-size: 28pt}
+p, footer, ul{
+font-size: 22pt;
+font-weight: normal;
+}
+}
