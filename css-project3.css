@@ -1,12 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-color: white;
+background-color: white;
 }
 .content{
 max-width: 736px;
 margin: auto;
 }
+
 h1,h2,h3,p,footer, ul,.topnav{
 margin: 0;
 padding:0;
@@ -24,16 +25,27 @@ font-size: 18pt;
 font-weight: normal;
 letter-spacing: normal;
 }
+
 h3{
 font-size: 18pt;
 font-weight: bold;
 text-align: center;
 }
+
 p, footer, ul{
 font-size: 14pt;
 font-weight: normal;
 }
-.header{
+
+header{
+text-align: center;
+background-color: #76B1AE;
+color: black;
+padding: 40px 0;
+
+}
+
+headejr{
 width: 100%;
 padding:40px 0;
 text-align: center;
@@ -49,6 +61,7 @@ color: black;
 list-style-type: none;
 margin-bottom: 10px;
 }
+
 .banner, footer{
 width: 100%;
 padding:15px 0;
@@ -62,6 +75,7 @@ color: black;
   background-color: #333;
   overflow: hidden;
 }
+
 .navbar a {
   float: left;
   padding: 10px;
@@ -93,6 +107,7 @@ color: black;
   width: 200px;
   height: auto;
 }
+
 .center3 {
   display: block;
   margin-left: auto;
@@ -100,6 +115,7 @@ color: black;
   width: 70%;
   height: auto;
 }
+
 .center4{
 display: block;
   margin-left: auto;
@@ -107,6 +123,7 @@ display: block;
   width: 50%;
   height: auto;
 }
+
 @media screen and (max-width : 736px ){
   .navbar a {
   float: left;
@@ -119,7 +136,8 @@ display: block;
   }
 	
 }
-	@media only screen and (min-width: 736px){
+
+@media only screen and (min-width: 736px){
 .content{
 max-width: 100%;
 margin: auto;
@@ -140,9 +158,10 @@ margin: auto;
   width: 500px;
   height: auto;
 }
+	
 .navbar a {
 font-size: 20px;
-		}
+}
    
 h1{font-size: 28pt}
 h2, h3{font-size: 20pt}
@@ -150,6 +169,7 @@ p, footer, ul{
 font-size: 18pt;
 font-weight: normal;
 }
+	
 }
 @media only screen and (min-width: 1000px){
 .content{
@@ -172,9 +192,10 @@ margin: auto;
   width: 500px;
   height: auto;
 }
+	
 .navbar a {
 font-size: 20px;
-		}
+}
    
 h1{font-size: 35pt}
 h2, h3{font-size: 28pt}
